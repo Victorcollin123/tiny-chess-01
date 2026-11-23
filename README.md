@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/tiny-chess-01/Victorcollin123/tiny-chess-01/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 [![reward](https://make.fun/badge/tiny-chess-01/Victorcollin123/tiny-chess-01/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
-A 4,096-byte chess engine in a single Python file (`main.py`, stdlib only, 3,797 bytes, packed with the kit's `makefun compress` from the readable `engine.py`).
+A 4,096-byte chess engine in a single Python file (`main.py`, stdlib only, 3,781 bytes, packed with the kit's `makefun compress` from the readable `engine.py`).
 
 Negamax alpha-beta with quiescence (check evasions), transposition table, iterative deepening, null-move pruning, PVS, futility pruning, and a tapered piece-square evaluation (middlegame tables and advanced-pawn bonuses by game phase). 0x88 board, full legal move generation (castling, en passant, promotions). Search runs to a fixed 40,000-node budget, never a clock, so final trials replay identically.
 
